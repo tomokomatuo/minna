@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datetime: 2020-09-01
+  place: MyString
+  to_do: MyText
+
+two:
+  datetime: 2020-09-01
+  place: MyString
+  to_do: MyText
