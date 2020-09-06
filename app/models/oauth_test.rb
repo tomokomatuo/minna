@@ -1,0 +1,2 @@
+class OauthTest < ApplicationRecord
+end
