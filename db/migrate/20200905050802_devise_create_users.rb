@@ -3,6 +3,11 @@
 class DeviseCreateUsers < ActiveRecord::Migration[5.2]
   def change
     create_table :users do |t|
+      t.string :age
+      t.integer :gender
+      t.text :image
+      t.text :introduction
+      t.string :nickname
 
       ## Database authenticatable
       t.string :email,              null: false, default: ""
